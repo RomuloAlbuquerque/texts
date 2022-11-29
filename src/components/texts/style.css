@@ -1,0 +1,25 @@
+.container-one{
+    background-color: #ddd;
+    padding: 10px 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.one-text{
+    color: black;  
+    text-align: center; 
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.bukowski{
+    text-align: center;
+    line-height: 30px;
+    color: #444;
+    font-size: 1.1em;
+    font-weight: lighter;
+}

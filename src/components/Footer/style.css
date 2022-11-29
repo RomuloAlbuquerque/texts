@@ -1,0 +1,17 @@
+footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(3, 109, 109);
+}
+
+h1{
+    color: gainsboro;
+    font-size: 0.9em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-align: center;
+}
