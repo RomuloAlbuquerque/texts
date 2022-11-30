@@ -4,18 +4,19 @@ a{
 
 .nav-container{
   background-color: steelblue;
-  width: 90%;
   margin: auto;
+  min-height: 100px;
 }
 
 .nav-logo-text {
+  display: flex;
   margin: 0 0 0 20px;
-  padding: 0;
+  padding: 20px 0;
   color: white;
 }
 
 .list-nav-main{
-  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .list-nav-main p{

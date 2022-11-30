@@ -9,14 +9,14 @@ const Navbar = () => {
             <p className='list-title'>Charles Bukowski</p>
           </NavLink>
         </li>
-        <li>.
+        <li>
           <NavLink to="/text/two">
-            <p className='list-title'>Como o homem chegou mais perto de outros mundos</p>
+            <p className='list-title'>Sigmund Freud</p>
           </NavLink>
         </li>
         <li>
           <NavLink to="/text/three">
-            <p className='list-title'>Os interesses por trás de obras sobre independência do Brasil</p>
+            <p className='list-title'>Nelson Rodrigues</p>
           </NavLink>
         </li>
       </ul>

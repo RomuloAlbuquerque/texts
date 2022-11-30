@@ -6,7 +6,6 @@
 .container-text{
     display: flex;
     flex-direction: row;
-    width: 90%;
     margin: auto;
     background-color: gainsboro;
     min-height: calc(100vh - 200px);
@@ -18,7 +17,7 @@ li{
 
 .container-navbar{
     width: 25%;
-    background-color: slategrey;
+    background-color: teal;
     padding: 20px;
 }
 
