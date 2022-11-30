@@ -5,6 +5,10 @@
     color: #ddd;
 }
 
+ul{
+    margin-top: 10px;
+}
+
 a{
     color: black;
     text-decoration: none;

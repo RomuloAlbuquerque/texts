@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-sm nav-container">
       <div className="container-fluid">
         <NavLink to="/">
-          <h4 className="nav-logo-text">Romulo Albuquerque</h4>
+          <h4 className="nav-logo-text">Autores Polêmicos</h4>
         </NavLink>
 
         <button
@@ -34,8 +34,8 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/admin" activeClassName="active">
-                <p>Admin</p>
+              <NavLink to="/feature" activeClassName="active">
+                <p>New Feature</p>
               </NavLink>
             </li>
           </ul>

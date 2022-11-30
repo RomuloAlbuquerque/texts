@@ -23,10 +23,14 @@ a{
   color: white;
 }
 
-@media (min-width: 580px) {
+@media (min-width: 576px) {
+
+  .list-nav-main{
+    margin-right: 30px;
+  }
+
 .list-nav-main li{
-  margin: 0 60px;
-  width: 100%;
+  min-width: 100px;
   justify-content: flex-end;
 }
 
