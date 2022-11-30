@@ -4,21 +4,13 @@
 }
 
 .container-text{
-    display: flex;
-    flex-direction: row;
     margin: auto;
-    background-color: gainsboro;
+    background-color: teal;
     min-height: calc(100vh - 200px);
 }
 
 li{
     list-style-type: none;
-}
-
-.container-navbar{
-    width: 25%;
-    background-color: teal;
-    padding: 20px;
 }
 
 .text-h1{
@@ -27,12 +19,22 @@ li{
 }
 
 .container-router{
-    width: 75%;
     padding: 20px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 580px) {
+    .container-text{
+        display: flex;
+        justify-content: flex-start;
+    }
+
     .container-navbar{
-        padding-left: 40px;
+        width: 20%;
+        background-color: teal
+    }
+
+    .container-router{
+        background-color: teal;
+        width: 60%;
     }
 }

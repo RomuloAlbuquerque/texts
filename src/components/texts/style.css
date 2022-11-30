@@ -1,8 +1,10 @@
 .container-one{
     background-color: #ddd;
-    padding: 10px 10px;
-    width: 50%;
+    padding: 60px;
     margin: auto;
+    border-radius: 10px;
+    min-height: 100%;
+    width: 90%;
 }
 
 .one-text{
