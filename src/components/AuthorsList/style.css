@@ -1,0 +1,12 @@
+/* .container-author-list{
+    background-color: teal;
+} */
+
+.container-author-list a{
+    color: white;
+}
+
+.container-author-list li{
+    list-style-type: square;
+    color: rgb(30, 88, 136);
+}

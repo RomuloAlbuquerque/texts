@@ -1,10 +1,10 @@
 import './style.css'
 
 const Footer = ()=>{
-    return (
-        <footer>
-            <h1>Romulo Albuquerque</h1>
-        </footer>
+    return(
+        <div className="container-footer">
+            <h4>Romulo Albuquerque</h4>
+        </div>
     )
 }
 

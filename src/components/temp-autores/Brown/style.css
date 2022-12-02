@@ -1,0 +1,29 @@
+.container-author{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.image-author{
+    width: 95%;
+    height: 47%;
+}
+
+.image-author img{
+    width: 100%;
+    height: 100%;
+}
+
+.details-author{
+    width: 95%;
+    height: 47%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}

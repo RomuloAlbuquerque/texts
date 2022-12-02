@@ -1,16 +1,14 @@
-footer{
-    margin: auto;
+.container-footer{
+    background-color: rgb(21, 93, 151);
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    background-color: rgb(3, 109, 109);
 }
 
-h1{
-    color: gainsboro;
-    font-size: 0.9em;
+.container-footer h4{
+    font-size: 15px;
+    color: rgb(175, 171, 171);
+    letter-spacing: 1px;
     font-weight: lighter;
-    letter-spacing: 2px;
-    text-align: center;
 }

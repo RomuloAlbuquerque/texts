@@ -1,13 +1,16 @@
 import { NavLink } from "react-router-dom";
 import "./style.css";
+import Logo from '../../assets/img/logo.png'
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm nav-container">
       <div className="container-fluid">
+        <div className="logo">
         <NavLink to="/">
-          <h4 className="nav-logo-text">Autores Polêmicos</h4>
+          <img src={Logo} alt="logo-autores-polêmicos"/>
         </NavLink>
+        </div>
 
         <button
           className="navbar-toggler"
@@ -21,7 +24,10 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse container-list" id="navbar-main">
+        <div
+          className="collapse navbar-collapse container-list"
+          id="navbar-main"
+        >
           <ul className="navbar-nav offset-md-2 list-nav-main">
             <li>
               <NavLink to="/" activeClassName="active" exact>
@@ -29,13 +35,8 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/text" activeClassName="active">
-                <p>Text</p>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/feature" activeClassName="active">
-                <p>New Feature</p>
+              <NavLink to="/authors/list" activeClassName="active">
+                <p>Autores</p>
               </NavLink>
             </li>
           </ul>

@@ -3,16 +3,20 @@ a{
 }
 
 .nav-container{
-  background-color: steelblue;
+  background-color: rgb(21, 93, 151);
   margin: auto;
   min-height: 100px;
 }
 
-.nav-logo-text {
+.logo{
   display: flex;
-  margin: 0 0 0 20px;
-  padding: 20px 0;
-  color: white;
+  justify-content: flex-start;
+  width: 250px;
+  margin: 20px 10px;
+}
+
+.logo img{
+  width: 100%;
 }
 
 .list-nav-main{
